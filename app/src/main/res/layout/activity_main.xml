@@ -11,6 +11,6 @@
     <TextView
         android:text="@string/hello_world"
 
-        style="@style/basicTextView" />
+        style="@style/basicTextView"/>
 
 </RelativeLayout>
