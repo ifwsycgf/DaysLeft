@@ -30,10 +30,26 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch(id) {
+            case R.id.home_menu;
+                // home_menuを選択したときの処理
+                // main activity に画面遷移
+                break;
+            case R.id.time_settings;
+                // time_settingsを選択したときの処理
+                // main activity に画面遷移
+                break;
+            case R.id.action_settings;
+                // action_settingsを選択したときの処理
+                // main activity に画面遷移
+                break;
+            default:
+                break;
         }
-
-        return super.onOptionsItemSelected(item);
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
     }
 }
